@@ -57,16 +57,6 @@ body{
 }
 
 
-@media screen and (max-width: 770px) and (min-width: 573px){
-    .span{
-        font-size: 4.6rem;
-        
-    }
-    .bimg{
-        height: 75vh;
-    }
-    
-}
 
 .date{
     color: white;
@@ -97,31 +87,6 @@ body{
 
 
 
-@media screen and (max-width: 572px) {
-    .span{
-        font-size: 3.5rem;
-        
-    }
-    .span{
-        align-items: center;
-        justify-content: center;
-    }
-    .bimg{
-        height: 70vh;
-        align-items: start;
-        padding-top: 40px;
-    }
-    .date{
-        font-size: 1.5rem;
-    }
-    .null{
-        height: 7.8vh;
-    }
-    .txt, .txt1{
-        text-align: center;
-    }
-
-}
 
 .btntxt{
     color: white;
@@ -145,7 +110,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 .btn-info{
@@ -241,7 +206,110 @@ body{
 }
 
 .c44{
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     padding-top: 40px;
+}
+
+.foot, .foot2{
+    margin: 0;
+    padding: 0;
+}
+
+.foot{
+    background: #000;
+}
+
+
+
+
+@media screen and (max-width: 432px){
+    .body2{
+        height: 160vh;
+    }
+}
+@media screen and (max-width: 375px){
+    .body2{
+        height: 180vh;
+    }
+}
+@media screen and (max-width: 572px) {
+    .span{
+        font-size: 3.5rem;
+        
+    }
+    .span{
+        align-items: center;
+        justify-content: center;
+    }
+    .bimg{
+        height: 70vh;
+        align-items: start;
+        padding-top: 40px;
+    }
+    .date{
+        font-size: 1.5rem;
+    }
+    .null{
+        height: 7.8vh;
+    }
+    .txt, .txt1{
+        text-align: center;
+    }
+    .kbm21{
+        font-size: 1.5rem;
+    }
+    .gtc2{
+        font-size: 1.8rem;
+    }
+    .b2h1{
+        font-size: 2.8rem;
+    }
+    .descai, .csh{
+        font-size: 1.2rem;
+    }
+    .body2{
+        height: 120vh;
+    }
+    .b2h12{
+        font-size: 2.8rem;
+    }
+    .c33{
+        /* border: 2px solid aqua; */
+        height: 80%;
+        padding: 0;
+        margin: 0;
+    }
+    .c44{
+        height: 100%;
+        /* border: 2px solid magenta; */
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 770px) and (min-width: 573px){
+    .span{
+        font-size: 4.6rem;
+        
+    }
+    .bimg{
+        height: 75vh;
+    }
+    .body2{
+        height: 100vh;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .body2{
+        height: 160vh;
+    }
+    
+    .body4{
+        height: 95vh;
+    }
 }
