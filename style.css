@@ -225,6 +225,10 @@ body{
     background: #000;
 }
 
+/* .divv{
+    align-items: center;
+    justify-content: center;
+} */
 
 
 
@@ -307,7 +311,14 @@ body{
         height: 100vh;
     }
     
+    
 }
+
+@media screen and (min-width: 481px) and (max-width: 573px) {
+   
+}
+
+
 
 @media screen and (max-width: 480px){
     .body2{
@@ -317,4 +328,16 @@ body{
     .body4{
         height: 95vh;
     }
+
+    .null{
+        height: 75px;
+    }
+    .kbm{
+        text-align: center;
+    }
+    /* .b2h12{
+        margin-bottom: 40px;
+    } */
+    
+
 }
