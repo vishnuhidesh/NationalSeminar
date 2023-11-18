@@ -165,7 +165,7 @@ body{
 
 .body3{
     background: black;
-    height: 100vh;
+    height: 110vh;
 }
 
 .b2h12{
@@ -339,5 +339,8 @@ body{
         margin-bottom: 40px;
     } */
     
+    .app{
+        /* height: 30%; */
+    }
 
 }
